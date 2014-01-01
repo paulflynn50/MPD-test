@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>My Page</title>
+</head>
+
+<body>
+	<form action="#" method="POST" name="Submit">
+		<fieldset>
+			<legend>Important Information</legend>
+			<label for="username">Username:</label><input type="text" name="username" id="username"><br>
+			<label for="password">Password:</label><input type="password" name="password" id="password"><br>
+			<label for="male">Male:</label><input type="radio" name="gender" id="male"><br>
+			<label for="female">Female:</label><input type="radio" name="gender" id="female"><br>
+			<label for="grapes">Grapes:</label><input type="checkbox" name="grapes" id="grapes"><br>
+			<label for="apples">Apples:</label><input type="checkbox" name="apples" id="apples"><br>
+			<label for="bananas">Bananas:</label><input type="checkbox" name="bananas" id="bananas"><br>
+		</fieldset>
+		
+		<fieldset>
+			<legend align="left">Optional Item</legend>
+			<label for="essay">We want to know more about you<br>write a short essay about yourself</label><br>
+			<textarea name="essay" rows="10" cols="30"></textarea><br>
+		</fieldset>
+		
+		<label for "continents">Where are you from?</label><br>
+		<select name="continents" id="continents">
+			<optgroup label="Americas">
+				<option>North America></option>
+				<option>South America></option>
+			<optgroup label="Eurasia">
+				<option>Europe></option>
+				<option>Asia></option>
+			<option>Africa></option>
+			<option>Australasia></option>
+			<option>Antarctic</option>
+		</select>
+
+		<br>
+
+		<input type="submit" value="Submit"><br>
+	</form>
+</body>
+</html>
